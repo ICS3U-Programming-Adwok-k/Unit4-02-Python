@@ -30,7 +30,7 @@ def main():
                 factorial = factorial * counter
                 # if counter is less than or equal to user_num
                 # the loop will break
-                if counter >= user_num:
+                if counter > user_num:
                     break
             # The user_num will be displayed with it's factorial
             print(f"{user_num}! = {factorial}")
